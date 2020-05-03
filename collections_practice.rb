@@ -38,8 +38,10 @@ end
 
 def find_a(array)
   array.find_all do |word|
-    word.start_with("a")
+    word[0] == "a"
   end
 end
 
-def
+def sum_array(array)
+  array.inject(0) {|sum, number| sum + number} 
+end
