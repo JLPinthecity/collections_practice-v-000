@@ -28,7 +28,6 @@ end
 
 def kesha_maker(array)
   kesha_names = []
-
   array.each do |name|
     name.split("")
     name[2] = "$"
